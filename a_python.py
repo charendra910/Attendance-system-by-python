@@ -125,7 +125,7 @@ insert = Button(root, text="Add Student", command=add_student)
 insert.configure(font=('arial', 13, 'bold'), bg='green', fg='white')
 insert.grid(row=62, column=1)
 
-
+#
 #function of remove existing student
 def remove_student():
     call(["python", "rm_a.py"])  
